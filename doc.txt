@@ -1,5 +1,15 @@
 SUMMARY
 https://api.covid19api.com/summary
 
+{"ID":"879900df-d6b4-485f-89c4-f93821438c4d","Country":"Netherlands","CountryCode":"NL","Slug":"netherlands","NewConfirmed":40122,"TotalConfirmed":4797157,"NewDeaths":10,"TotalDeaths":21323,"NewRecovered":0,"TotalRecovered":0,"Date":"2022-02-06T10:25:57.625Z","Premium":{}}
+
+
 COUNTRIES
 https://api.covid19api.com/countries
+
+
+{
+        "Country": "Netherlands",
+        "Slug": "netherlands",
+        "ISO2": "NL"
+    },

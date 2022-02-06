@@ -1,0 +1,5 @@
+SUMMARY
+https://api.covid19api.com/summary
+
+COUNTRIES
+https://api.covid19api.com/countries

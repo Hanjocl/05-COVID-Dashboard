@@ -19,7 +19,7 @@ server = Flask('COVID Dashboard')
 # Define the function 'index()' and connect it to the route /
 def index():
     # Return the string "A nice COVID dashboard."
-    return "A nice COVID dashboard."
+    return server.send_static_file('index.html')
 
 # Define an HTTP route /summary to serve the summary chart
 @server.route("/summary")

@@ -33,3 +33,11 @@
 [INFO] - 2022-02-07 07:59:23,634 : 172.18.0.1 - - [07/Feb/2022 07:59:23] "GET /summary HTTP/1.1" 200 - in _internal:225
 [INFO] - 2022-02-07 07:59:26,955 : Successfully received Dutch data from COVID19 API in covid:39
 [INFO] - 2022-02-07 07:59:27,026 : 172.18.0.1 - - [07/Feb/2022 07:59:27] "GET /netherlands HTTP/1.1" 200 - in _internal:225
+[WARNING] - 2022-02-07 08:07:49,621 :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. in _internal:225
+[INFO] - 2022-02-07 08:07:49,621 :  * Running on http://172.18.0.61:5000/ (Press CTRL+C to quit) in _internal:225
+[INFO] - 2022-02-07 08:07:49,773 : 172.18.0.1 - - [07/Feb/2022 08:07:49] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:07:52,775 : 172.18.0.1 - - [07/Feb/2022 08:07:52] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:07:58,075 : 172.18.0.1 - - [07/Feb/2022 08:07:58] "[33mGET /summart HTTP/1.1[0m" 404 - in _internal:225
+[INFO] - 2022-02-07 08:08:00,788 : 172.18.0.1 - - [07/Feb/2022 08:08:00] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:08:04,765 : 172.18.0.1 - - [07/Feb/2022 08:08:04] "GET / HTTP/1.1" 200 - in _internal:225

@@ -6,6 +6,40 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+        header {
+            height: 25px;
+            background-color: #3399ff;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section {
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+
+        section > div {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        #summary {
+            max-height: 280px;
+            overflow: auto;
+        }
+
+    
+    </style>
   </head>
   <body>
       <main>

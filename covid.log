@@ -285,3 +285,22 @@ json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
 [INFO] - 2022-02-07 08:18:35,027 : 172.18.0.1 - - [07/Feb/2022 08:18:35] "GET /summary HTTP/1.1" 200 - in _internal:225
 [INFO] - 2022-02-07 08:18:36,201 : 172.18.0.1 - - [07/Feb/2022 08:18:36] "GET / HTTP/1.1" 200 - in _internal:225
 [INFO] - 2022-02-07 08:18:37,069 : 172.18.0.1 - - [07/Feb/2022 08:18:37] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:23:28,452 : 172.18.0.1 - - [07/Feb/2022 08:23:28] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:23:29,270 : 172.18.0.1 - - [07/Feb/2022 08:23:29] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:23:29,389 : 172.18.0.1 - - [07/Feb/2022 08:23:29] "[36mGET / HTTP/1.1[0m" 304 - in _internal:225
+[INFO] - 2022-02-07 08:23:30,271 : 172.18.0.1 - - [07/Feb/2022 08:23:30] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:23:57,141 : 172.18.0.1 - - [07/Feb/2022 08:23:57] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:23:57,961 : 172.18.0.1 - - [07/Feb/2022 08:23:57] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:24:59,011 : 172.18.0.1 - - [07/Feb/2022 08:24:59] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:24:59,849 : 172.18.0.1 - - [07/Feb/2022 08:24:59] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:25:01,724 : 172.18.0.1 - - [07/Feb/2022 08:25:01] "[36mGET / HTTP/1.1[0m" 304 - in _internal:225
+[INFO] - 2022-02-07 08:25:01,919 : 172.18.0.1 - - [07/Feb/2022 08:25:01] "[36mGET / HTTP/1.1[0m" 304 - in _internal:225
+[INFO] - 2022-02-07 08:25:02,605 : 172.18.0.1 - - [07/Feb/2022 08:25:02] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:25:02,752 : 172.18.0.1 - - [07/Feb/2022 08:25:02] "GET /summary HTTP/1.1" 200 - in _internal:225
+[WARNING] - 2022-02-07 08:25:05,142 :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. in _internal:225
+[INFO] - 2022-02-07 08:25:05,142 :  * Running on http://172.18.0.61:5000/ (Press CTRL+C to quit) in _internal:225
+[INFO] - 2022-02-07 08:25:05,299 : 172.18.0.1 - - [07/Feb/2022 08:25:05] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:25:06,091 : 172.18.0.1 - - [07/Feb/2022 08:25:06] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:25:09,064 : 172.18.0.1 - - [07/Feb/2022 08:25:09] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:25:09,983 : 172.18.0.1 - - [07/Feb/2022 08:25:09] "GET /summary HTTP/1.1" 200 - in _internal:225

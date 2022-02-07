@@ -3,6 +3,7 @@
 from covid import download_summary, download_confirmed_per_country
 # Import the object Flask from the flask module
 from flask import Flask
+import json
 
 # Import and setup logging
 import logging
@@ -18,14 +19,20 @@ server = Flask('COVID Dashboard')
 # Define the function 'index()' and connect it to the route /
 def index():
     # Return the string "A nice COVID dashboard."
-    return "A nice COVID dashboard."
+    return server.send_static_file('index.html')
 
 # Define an HTTP route /summary to serve the summary chart
 @server.route("/summary")
 # Define the function 'serve_summary()' and connect it to the route /summary
 def serve_summary():
-    # Return the string "A bar chart summary of COVID cases per country."
-    return download_summary()
+    # Load JSON template from summary.json
+    json_template = json.load(open("templates/summary.json"))
+    # Download summary from the COVID API
+    summary_data = download_summary()
+    # Add the data to the template
+    json_template["data"]["values"] = summary_data["Countries"]
+    # Send the chart description to the client
+    return json_template
 
 # Define an HTTP route /new to serve the new count worldwide chart
 @server.route("/new")

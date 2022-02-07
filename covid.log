@@ -274,3 +274,14 @@ json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
 [INFO] - 2022-02-07 08:13:37,536 : 172.18.0.1 - - [07/Feb/2022 08:13:37] "[36mGET / HTTP/1.1[0m" 304 - in _internal:225
 [INFO] - 2022-02-07 08:13:38,407 : 172.18.0.1 - - [07/Feb/2022 08:13:38] "GET /summary HTTP/1.1" 200 - in _internal:225
 [INFO] - 2022-02-07 08:13:53,336 : 172.18.0.1 - - [07/Feb/2022 08:13:53] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:15:09,956 : 172.18.0.1 - - [07/Feb/2022 08:15:09] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:15:10,803 : 172.18.0.1 - - [07/Feb/2022 08:15:10] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:18:23,705 : 172.18.0.1 - - [07/Feb/2022 08:18:23] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:18:24,551 : 172.18.0.1 - - [07/Feb/2022 08:18:24] "GET /summary HTTP/1.1" 200 - in _internal:225
+[WARNING] - 2022-02-07 08:18:34,063 :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment. in _internal:225
+[INFO] - 2022-02-07 08:18:34,064 :  * Running on http://172.18.0.61:5000/ (Press CTRL+C to quit) in _internal:225
+[INFO] - 2022-02-07 08:18:34,228 : 172.18.0.1 - - [07/Feb/2022 08:18:34] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:18:35,027 : 172.18.0.1 - - [07/Feb/2022 08:18:35] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:18:36,201 : 172.18.0.1 - - [07/Feb/2022 08:18:36] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:18:37,069 : 172.18.0.1 - - [07/Feb/2022 08:18:37] "GET /summary HTTP/1.1" 200 - in _internal:225

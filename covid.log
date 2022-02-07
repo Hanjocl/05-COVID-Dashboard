@@ -444,3 +444,19 @@ KeyError: 'Status'
 [INFO] - 2022-02-07 08:41:18,598 : 172.18.0.1 - - [07/Feb/2022 08:41:18] "GET /new HTTP/1.1" 200 - in _internal:225
 [INFO] - 2022-02-07 08:41:18,684 : Successfully received Dutch data from COVID19 API in covid:39
 [INFO] - 2022-02-07 08:41:18,749 : 172.18.0.1 - - [07/Feb/2022 08:41:18] "GET /netherlands HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:06,573 : 172.18.0.1 - - [07/Feb/2022 08:43:06] "[36mGET / HTTP/1.1[0m" 304 - in _internal:225
+[INFO] - 2022-02-07 08:43:07,289 : 172.18.0.1 - - [07/Feb/2022 08:43:07] "[36mGET / HTTP/1.1[0m" 304 - in _internal:225
+[INFO] - 2022-02-07 08:43:07,466 : 172.18.0.1 - - [07/Feb/2022 08:43:07] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:07,486 : 172.18.0.1 - - [07/Feb/2022 08:43:07] "GET /new HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:07,546 : 172.18.0.1 - - [07/Feb/2022 08:43:07] "GET / HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:07,587 : Successfully received Dutch data from COVID19 API in covid:39
+[INFO] - 2022-02-07 08:43:07,632 : 172.18.0.1 - - [07/Feb/2022 08:43:07] "GET /netherlands HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:08,350 : 172.18.0.1 - - [07/Feb/2022 08:43:08] "GET /new HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:08,446 : 172.18.0.1 - - [07/Feb/2022 08:43:08] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:08,501 : Successfully received Dutch data from COVID19 API in covid:39
+[INFO] - 2022-02-07 08:43:08,599 : 172.18.0.1 - - [07/Feb/2022 08:43:08] "GET /netherlands HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:14,557 : 172.18.0.1 - - [07/Feb/2022 08:43:14] "[36mGET / HTTP/1.1[0m" 304 - in _internal:225
+[INFO] - 2022-02-07 08:43:15,359 : 172.18.0.1 - - [07/Feb/2022 08:43:15] "GET /new HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:15,421 : 172.18.0.1 - - [07/Feb/2022 08:43:15] "GET /summary HTTP/1.1" 200 - in _internal:225
+[INFO] - 2022-02-07 08:43:15,528 : Successfully received Dutch data from COVID19 API in covid:39
+[INFO] - 2022-02-07 08:43:15,585 : 172.18.0.1 - - [07/Feb/2022 08:43:15] "GET /netherlands HTTP/1.1" 200 - in _internal:225

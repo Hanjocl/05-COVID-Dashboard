@@ -6,7 +6,7 @@
   },
   "mark": {
     "type": "bar",
-    "tooltip": "true"
+    "tooltip": true
   },
   "encoding": {
     "x": {

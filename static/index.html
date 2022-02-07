@@ -37,6 +37,10 @@
             max-height: 280px;
             overflow: auto;
         }
+        .country {
+            grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+            text-align: center;
+        }
 
     
     </style>
@@ -47,23 +51,21 @@
 
           <section>
             <!-- Where to draw the newest count (Donut) -->
-            <div id="new">
-
-            </div>
+            <div id="new"></div>            
             <!-- Where to draw the summary for all countries (Bar chart) -->
             <div id="summary"></div>
-            <script type="text/javascript">
-            vegaEmbed('#summary', '/summary');
-            </script>
           </section>
           
           <h1>In the Netherlands</h1>
-
-            <section>
+            <section class="country">
                 <!-- Where to draw the netherlands chart (Area chart) -->
                 <div id="netherlands"></div>
             </section>
-            </main>
-    
+        </main>
+        <script type="text/javascript">
+            vegaEmbed('#new', '/new');
+            vegaEmbed('#summary', '/summary');
+            vegaEmbed('#netherlands', '/netherlands');
+        </script>
   </body>
 </html>
